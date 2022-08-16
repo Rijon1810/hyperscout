@@ -1,0 +1,107 @@
+.search {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: calc(100% - 30px);
+  margin: 0 auto;
+  height: 80px;
+  background: #f7f7f8;
+  margin-top: 15px;
+  padding: 0px 20px;
+}
+
+.mobile-search {
+  flex-direction: column;
+  height: 215px;
+  padding: 25px;
+  border-radius: 8px;
+}
+
+.users-count {
+  font-family: "Sen";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  color: #231f20;
+}
+
+.search-box {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  width: 776px;
+  height: 48px;
+  background: #ffffff;
+  border: 1px solid #dbdbdb;
+  border-radius: 4px;
+}
+
+.mobile-search .search-box {
+  width: 100%;
+}
+
+.searchIcon {
+  height: 17px;
+  width: 17px;
+  margin-left: 15px;
+}
+
+input {
+  width: 100%;
+  padding: 12px 20px;
+  display: inline-block;
+  border: none;
+  outline-width: 0;
+  border-radius: 4px;
+  box-sizing: border-box;
+  outline: none;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+  font-family: "Sen";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #231f20;
+  transition: background-color 5000s;
+  -webkit-text-fill-color: #231f20 !important;
+}
+
+.filter {
+  width: 163px;
+  height: 48px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  background: #564fb1;
+  border-radius: 4px;
+  gap: 10px;
+  cursor: pointer;
+}
+
+.filterIcon {
+  width: 24px;
+  height: 24px;
+}
+
+.filter-text {
+  font-family: "Sen";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #ffffff;
+}

@@ -1,5 +1,10 @@
 import React from "react";
-
-export const HomeScreen = () => {
-  return <div>HomeScreen</div>;
+import { Search } from "../components/search/Search";
+import "./HomeScreen.css";
+export const HomeScreen = ({ isMobile }) => {
+  return (
+    <div className={`home-screen ${isMobile && "mobile-home-screen"}`}>
+      <Search />
+    </div>
+  );
 };

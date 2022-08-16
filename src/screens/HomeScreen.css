@@ -1,0 +1,10 @@
+.home-screen {
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  padding: 0px 131px 0px 121px;
+}
+
+.mobile-home-screen {
+  padding: 0px;
+}
