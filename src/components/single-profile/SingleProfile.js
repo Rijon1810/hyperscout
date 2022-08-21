@@ -1,11 +1,9 @@
 import React from "react";
 import addressIcon from "./images/location.png";
 import clockIcon from "./images/clock.png";
-import facebookIcon from "./images/facebook.png";
-import instagramIcon from "./images/instagram.png";
-import linkedinIcon from "./images/linkedin.png";
-import twitterIcon from "./images/twitter.png";
+
 import "./SingleProfile.css";
+import { SNSArea } from "../sns-area/SNSArea";
 
 export const SingleProfile = ({ item, index }) => {
   let { address, categories, followers, gender, imageUrl, joined, name } = item;
@@ -24,12 +22,7 @@ export const SingleProfile = ({ item, index }) => {
         <img className="join-icon" src={clockIcon} alt="clock" />
         <div className="join-text">{joined}</div>
       </div>
-      <div className="sns-area">
-        <img className="sns-icon" src={facebookIcon} alt="fb" />
-        <img className="sns-icon" src={instagramIcon} alt="inst" />
-        <img className="sns-icon" src={linkedinIcon} alt="lkdn" />
-        <img className="sns-icon" src={twitterIcon} alt="twit" />
-      </div>
+      <SNSArea />
       <div className="about-area">
         <div className="about-item">
           <div className="about-top">{followers}</div>

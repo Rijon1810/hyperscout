@@ -1,6 +1,6 @@
 import React from "react";
 import "./Header.css";
-import lightLogo from "./images/light_logo.png";
+import lightLogo from "../../common-images/light_logo.png";
 import notificaton from "./images/notification.png";
 import darkIcon from "./images/dark.png";
 import navProfile from "./images/nav_profile.png";

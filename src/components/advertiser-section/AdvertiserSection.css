@@ -1,0 +1,23 @@
+.advertiser-section {
+  display: flex;
+  flex-direction: column;
+  margin-top: 50px;
+}
+
+.advertiser-section-item {
+  font-family: "Sen";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #637381;
+}
+
+.advertiser-section-title {
+  font-family: "Sen";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 28px;
+  color: #231f20;
+}

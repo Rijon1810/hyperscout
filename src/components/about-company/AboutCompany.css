@@ -1,0 +1,20 @@
+.about-company {
+  display: flex;
+  flex-direction: column;
+  width: 270px;
+}
+
+.about-company-logo {
+  width: 133px;
+  height: 30px;
+  margin-bottom: 20px;
+}
+
+.about-company-text {
+  font-family: "Sen";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #637381;
+}
