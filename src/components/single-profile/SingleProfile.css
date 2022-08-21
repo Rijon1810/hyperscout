@@ -1,0 +1,120 @@
+.single-profile {
+  min-width: 376px;
+  height: 475px;
+  background: #f7f7f8;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.profile-image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 140px;
+  width: 140px;
+  background-color: #737071;
+  border-radius: 50%;
+  margin-top: 50px;
+}
+
+.profile-image img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+
+.profile-user-name {
+  width: 100%;
+  text-align: center;
+  font-family: "Sen";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+  text-align: center;
+  color: #231f20;
+}
+
+.address-area,
+.join-area {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+  gap: 5px;
+}
+
+.address-icon,
+.join-icon {
+  width: 24px;
+  width: 24px;
+}
+
+.address-text,
+.join-text {
+  font-family: "Sen";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  color: #000000;
+}
+
+.sns-area {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 16px;
+  margin-top: 15px;
+}
+
+.sns-icon {
+  width: 20px;
+  height: 20px;
+}
+
+.about-area {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+  gap: 17px;
+  margin-top: 15px;
+}
+
+.about-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 52px;
+  border: 0.5px dashed #637381;
+  border-radius: 3px;
+  width: max-content;
+  padding: 9px 11px;
+}
+
+.about-top {
+  font-family: "Sen";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  color: #564fb1;
+}
+
+.about-bottom {
+  font-family: "Sen";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  color: #231f20;
+}

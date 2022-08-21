@@ -1,0 +1,7 @@
+.users-profile {
+  margin-top: 30px;
+  position: relative;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 30px;
+}
