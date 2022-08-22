@@ -1,9 +1,9 @@
 import React from "react";
 import "./Navigation.css";
 
-export const Navigation = () => {
+export const Navigation = ({ isMobile }) => {
   return (
-    <div className="navigation">
+    <div className={`navigation ${isMobile && "mobile-navigation"}`}>
       <div className="navigation-item navigation-title">Company</div>
       <div className="navigation-item">About Us</div>
       <div className="navigation-item">Careers</div>

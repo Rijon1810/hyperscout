@@ -7,6 +7,12 @@
   margin-top: 30px;
 }
 
+.mobile-pagination {
+  width: calc(100% - 108px);
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
 .pagination-left,
 .pagination-right,
 .pagination-page-numbers {

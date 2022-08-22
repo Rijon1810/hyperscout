@@ -16,6 +16,7 @@
   height: 215px;
   padding: 25px;
   border-radius: 8px;
+  width: calc(100% - 30px);
 }
 
 .users-count {

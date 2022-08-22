@@ -4,6 +4,10 @@
   margin-top: 50px;
 }
 
+.mobile-navigation {
+  margin-top: 0px;
+}
+
 .navigation-item {
   font-family: "Sen";
   font-style: normal;

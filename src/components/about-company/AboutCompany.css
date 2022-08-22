@@ -4,6 +4,13 @@
   width: 270px;
 }
 
+.about-company {
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-top: 60px;
+}
+
 .about-company-logo {
   width: 133px;
   height: 30px;

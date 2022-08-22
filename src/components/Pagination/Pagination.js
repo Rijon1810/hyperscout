@@ -3,10 +3,12 @@ import "./Pagination.css";
 import arrowLeft from "./images/arrow-left.png";
 import arrowRight from "./images/arrow-right.png";
 import numberIcon from "./images/number.png";
+import useDeviceDetect from "../../utils/useDeviceDetect";
 
 export const Pagination = () => {
+  let isMobile = useDeviceDetect().isMobile;
   return (
-    <div className="pagination">
+    <div className={`pagination ${isMobile && "mobile-pagination"}`}>
       <div className="pagination-left">
         <img className="pagination-icon" src={arrowLeft} alt="left" />
         <div className="pagination-text">Previous</div>
