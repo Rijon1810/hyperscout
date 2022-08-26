@@ -1,0 +1,72 @@
+.filter-options {
+  z-index: 99999999;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 747px;
+  width: 300px;
+  background: #17181b;
+  box-shadow: 0px 8px 80px -4px rgba(42, 44, 52, 0.25);
+  border-radius: 8px;
+  right: 240px;
+  top: 80px;
+}
+
+.filter-options-mobile {
+  left: 50%;
+  transform: translate(-50%, 0px);
+}
+
+.filter-options-top {
+  font-family: "Sen";
+  font-style: normal;
+  display: flex;
+  align-items: center;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 18px;
+  color: #ffffff;
+  height: 66px;
+  width: 100%;
+  padding: 0px 20px;
+  border-bottom: 1px solid #2b2b3e;
+}
+
+.submit-area {
+  width: 100%;
+  height: 38px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 10px;
+  padding-right: 20px;
+}
+
+.reset,
+.apply {
+  height: 100%;
+  width: 68px;
+  border-radius: 4px;
+  font-family: "Sen";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-transform: capitalize;
+  color: #6d6d7e;
+  cursor: pointer;
+}
+
+.reset {
+  background: #050405;
+}
+
+.apply {
+  background: #564fb1;
+  color: #fbfbfb;
+}

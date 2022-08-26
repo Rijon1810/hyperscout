@@ -1,0 +1,72 @@
+.single-filter-options {
+  height: 100px;
+  width: 100%;
+  padding: 0px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 5px;
+}
+
+.options-title {
+  font-family: "Sen";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 30px;
+  color: #cdcddd;
+}
+
+.options-dropdown {
+  height: 45px;
+  width: 100%;
+  background: #050405;
+  border-radius: 4px;
+  padding: 0px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+}
+
+.dropdown-text {
+  font-family: "Sen";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 26px;
+  color: #919eab;
+  opacity: 0.5;
+}
+
+.down-arrow {
+  width: 10px;
+  height: 5px;
+}
+
+.gender-selection {
+  width: 100%;
+  height: 30px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 62px;
+}
+
+.gender-type {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.gender-type-text {
+  font-family: "Sen";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 30px;
+  color: #cdcddd;
+}

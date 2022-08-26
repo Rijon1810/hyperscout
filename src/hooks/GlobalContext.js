@@ -4,6 +4,7 @@ export const GlobalContext = createContext();
 
 export const GlobalProvider = ({ children }) => {
   const [showThemeDropDown, setShowThemeDropDown] = useState(false);
+  const [showAdvanceFilter, setShowAdvanceFilter] = useState(false);
   const [selectedTheme, setSelectedTheme] = useState("SYSTEM");
   return (
     <GlobalContext.Provider
@@ -12,6 +13,8 @@ export const GlobalProvider = ({ children }) => {
         setShowThemeDropDown,
         selectedTheme,
         setSelectedTheme,
+        showAdvanceFilter,
+        setShowAdvanceFilter,
       }}
     >
       {children}

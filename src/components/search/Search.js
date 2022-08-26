@@ -4,9 +4,11 @@ import searchIcon from "./search.png";
 import filterIcon from "./filter.png";
 import useDeviceDetect from "../../utils/useDeviceDetect";
 import { GlobalContext } from "../../hooks/GlobalContext";
+import FilterOptions from "./filter-options/FilterOptions";
 export const Search = () => {
   let isMobile = useDeviceDetect().isMobile;
-  const { selectedTheme } = useContext(GlobalContext);
+  const { selectedTheme, showAdvanceFilter, setShowAdvanceFilter } =
+    useContext(GlobalContext);
   return (
     <div
       className={`search ${isMobile && "mobile-search"}`}
@@ -28,8 +30,11 @@ export const Search = () => {
       </div>
       <div className="filter">
         <img className="filterIcon" src={filterIcon} alt="filterIcon" />
-        <div className="filter-text"> Advance Filter</div>
+        <div className="filter-text" onClick={() => setShowAdvanceFilter(true)}>
+          Advance Filter
+        </div>
       </div>
+      {showAdvanceFilter && <FilterOptions isMobile={isMobile} />}
     </div>
   );
 };

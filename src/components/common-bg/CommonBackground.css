@@ -1,0 +1,12 @@
+.common-bg {
+  z-index: 99999998;
+  position: absolute;
+  background: rgba(29, 29, 31, 0.8);
+  backdrop-filter: blur(1px);
+  height: 1711.970px;
+  width: 100%;
+}
+
+.common-bg-mobile {
+  height: 4013px;
+}
