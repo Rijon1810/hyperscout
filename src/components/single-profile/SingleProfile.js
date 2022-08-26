@@ -1,15 +1,19 @@
-import React from "react";
+import React, { useContext } from "react";
 import addressIcon from "./images/location.png";
 import clockIcon from "./images/clock.png";
 
 import "./SingleProfile.css";
 import { SNSArea } from "../sns-area/SNSArea";
+import { GlobalContext } from "../../hooks/GlobalContext";
 
 export const SingleProfile = ({ item, index }) => {
   let { address, categories, followers, gender, imageUrl, joined, name } = item;
+  const { selectedTheme } = useContext(GlobalContext);
+
+  const isDark = selectedTheme === "DARK";
 
   return (
-    <div className="single-profile">
+    <div className={`single-profile ${isDark && "single-profile-dark"}`}>
       <div className="profile-image">
         {imageUrl && <img className="image" src={imageUrl} alt="profile" />}
       </div>

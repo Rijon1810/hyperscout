@@ -33,3 +33,7 @@
   justify-content: space-between;
   margin-top: 20px;
 }
+
+.dark-footer {
+  background: #17181B;
+}

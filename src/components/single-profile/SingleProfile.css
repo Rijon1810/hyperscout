@@ -1,5 +1,5 @@
 .single-profile {
-  min-width: 376px;
+  width: 100%;
   height: 475px;
   background: #f7f7f8;
   border-radius: 8px;
@@ -104,4 +104,27 @@
   line-height: 17px;
   text-align: center;
   color: #231f20;
+}
+
+.single-profile-dark {
+  background: #17181b;
+}
+
+.single-profile-dark .profile-user-name {
+  color: #ffffff;
+}
+
+.single-profile-dark .address-area .address-icon,
+.single-profile-dark .join-area .join-icon {
+  filter: invert();
+}
+
+.single-profile-dark .address-area .address-text,
+.single-profile-dark .join-area .join-text,
+.single-profile-dark .about-area .about-item .about-bottom {
+  color: #637381;
+}
+
+.single-profile-dark .about-area .about-item .about-top {
+  color: #96b3cd;
 }
